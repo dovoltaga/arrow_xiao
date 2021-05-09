@@ -3,7 +3,8 @@
 Seeeduino XIAOをコントローラーに使用し、
 CircuitPythonでファームウエアを記述したカーソルキーだけのキーボードです。
 
-<img src="https://github.com/dovoltaga/arrow_xiao/blob/master/arrow_xiao.jpg" width=320>
+<img src="https://github.com/dovoltaga/arrow_xiao/blob/master/arrow_xiao.jpg" width="320">
+
 ## データ
 | 項目          | ファイル名      |
 |--------------|----------------|
