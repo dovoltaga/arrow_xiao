@@ -1,19 +1,20 @@
 # arrow_xiao
 
-Seeeduino XIAO‚ðƒRƒ“ƒgƒ[ƒ‰[‚ÉŽg—p‚µA
-CircuitPython‚Åƒtƒ@[ƒ€ƒEƒGƒA‚ð‹Lq‚µ‚½ƒJ[ƒ\ƒ‹ƒL[‚¾‚¯‚ÌƒL[ƒ{[ƒh‚Å‚·B
+Seeeduino XIAOã‚’ã‚³ãƒ³ãƒˆãƒ­ãƒ¼ãƒ©ãƒ¼ã«ä½¿ç”¨ã—ã€
+CircuitPythonã§ãƒ•ã‚¡ãƒ¼ãƒ ã‚¦ã‚¨ã‚¢ã‚’è¨˜è¿°ã—ãŸã‚«ãƒ¼ã‚½ãƒ«ã‚­ãƒ¼ã ã‘ã®ã‚­ãƒ¼ãƒœãƒ¼ãƒ‰ã§ã™ã€‚
 
-## ƒf[ƒ^
-| €–Ú          | ƒtƒ@ƒCƒ‹–¼      |
+<img src="https://github.com/dovoltaga/arrow_xiao/blob/master/arrow_xiao.jpg" width=320>
+## ãƒ‡ãƒ¼ã‚¿
+| é …ç›®          | ãƒ•ã‚¡ã‚¤ãƒ«å      |
 |--------------|----------------|
-| ƒtƒ@[ƒ€ƒEƒGƒA | main.py        |
-| ƒvƒŒ[ƒgƒf[ƒ^ | arrow_case.pdf |
+| ãƒ•ã‚¡ãƒ¼ãƒ ã‚¦ã‚¨ã‚¢ | main.py        |
+| ãƒ—ãƒ¬ãƒ¼ãƒˆãƒ‡ãƒ¼ã‚¿ | arrow_case.pdf |
 
-PCB‚Ísu120‚ðŽg—p‚µ‚Ü‚µ‚½B
+PCBã¯su120ã‚’ä½¿ç”¨ã—ã¾ã—ãŸã€‚
 
-## ‰ñ˜H}
+## å›žè·¯å›³
 
-XIAO‚ÌŠeGPIOƒsƒ“‚ÆƒL[ƒ}ƒgƒŠƒbƒNƒX‚Ìrow,col‚Í‰º‹L‚Ì‚æ‚¤‚ÉÚ‘±‚µ‚Ü‚·B
+XIAOã®å„GPIOãƒ”ãƒ³ã¨ã‚­ãƒ¼ãƒžãƒˆãƒªãƒƒã‚¯ã‚¹ã®row,colã¯ä¸‹è¨˜ã®ã‚ˆã†ã«æŽ¥ç¶šã—ã¾ã™ã€‚
 
 ```
        col0    col1    col2
@@ -29,18 +30,18 @@ row1  |      |      |       |
       +------+------+-------+
 ```
 
-## ƒtƒ@[ƒ€ƒEƒGƒA
+## ãƒ•ã‚¡ãƒ¼ãƒ ã‚¦ã‚¨ã‚¢
 
-[ŒöŽ®‚ÌƒhƒLƒ…ƒƒ“ƒg](https://wiki.seeedstudio.com/jp/Seeeduino-XIAO-CircuitPython/)‚ðŽQl‚É
-CircuitPython‚Ì[ƒu[ƒgƒ[ƒ_[](https://circuitpython.org/board/seeeduino_xiao/)‚ðXIAO‚ÉƒCƒ“ƒXƒg[ƒ‹‚µ‚Ä‚­‚¾‚³‚¢B
+[å…¬å¼ã®ãƒ‰ã‚­ãƒ¥ãƒ¡ãƒ³ãƒˆ](https://wiki.seeedstudio.com/jp/Seeeduino-XIAO-CircuitPython/)ã‚’å‚è€ƒã«
+CircuitPythonã®[ãƒ–ãƒ¼ãƒˆãƒ­ãƒ¼ãƒ€ãƒ¼](https://circuitpython.org/board/seeeduino_xiao/)ã‚’XIAOã«ã‚¤ãƒ³ã‚¹ãƒˆãƒ¼ãƒ«ã—ã¦ãã ã•ã„ã€‚
 
-HIDƒfƒoƒCƒX‚Æ‚µ‚ÄŽg—p‚·‚é‚½‚ß‚Éƒ‰ƒCƒuƒ‰ƒŠ[‚ðCircuitPython‚Ì[ƒTƒCƒg](https://circuitpython.org/libraries)‚©‚çƒ_ƒEƒ“ƒ[ƒh‚µ‚Ä,
-adafruit_hidƒtƒHƒ‹ƒ_‚²‚ÆXIAO‚ÌlibƒtƒHƒ‹ƒ_‚ÖƒRƒs[‚µ‚Ä‚­‚¾‚³‚¢B
+HIDãƒ‡ãƒã‚¤ã‚¹ã¨ã—ã¦ä½¿ç”¨ã™ã‚‹ãŸã‚ã«ãƒ©ã‚¤ãƒ–ãƒ©ãƒªãƒ¼ã‚’CircuitPythonã®[ã‚µã‚¤ãƒˆ](https://circuitpython.org/libraries)ã‹ã‚‰ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰ã—ã¦,
+adafruit_hidãƒ•ã‚©ãƒ«ãƒ€ã”ã¨XIAOã®libãƒ•ã‚©ãƒ«ãƒ€ã¸ã‚³ãƒ”ãƒ¼ã—ã¦ãã ã•ã„ã€‚
 
-‚±‚ÌƒŠƒ|ƒWƒgƒŠ‚Ìmain.py‚ðXIAO‚ÉƒRƒs[‚µ‚Ä‚­‚¾‚³‚¢B
+ã“ã®ãƒªãƒã‚¸ãƒˆãƒªã®main.pyã‚’XIAOã«ã‚³ãƒ”ãƒ¼ã—ã¦ãã ã•ã„ã€‚
 
-## “®ì‚É‚Â‚¢‚Ä
+## å‹•ä½œã«ã¤ã„ã¦
 
-‚Ç‚ê‚©ƒL[‚ð‰Ÿ‚µ‚Ä‚¢‚éŠÔ‚ÍXIAO‚Ì‰©F‚ÌLED‚ª“_“”‚µ‚Ü‚·B
+ã©ã‚Œã‹ã‚­ãƒ¼ã‚’æŠ¼ã—ã¦ã„ã‚‹é–“ã¯XIAOã®é»„è‰²ã®LEDãŒç‚¹ç¯ã—ã¾ã™ã€‚
 
-‚R‚Â‚ÌƒL[‚ð“¯Žž‰Ÿ‚µ‚µ‚½ê‡‚Í20•b‚²‚Æ‚ÉƒJ[ƒ\ƒ‹‚ªŽ©“®“I‚Éã‰ºA‰ºãA¶‰EA‰E¶‚É“®ì‚µ‚Ü‚·A‚Ç‚ê‚©ƒL[‚ð‰Ÿ‚µ‘±‚¯‚Ä‚¢‚ê‚ÎŽ~‚Ü‚è‚Ü‚·B
+ï¼“ã¤ã®ã‚­ãƒ¼ã‚’åŒæ™‚æŠ¼ã—ã—ãŸå ´åˆã¯20ç§’ã”ã¨ã«ã‚«ãƒ¼ã‚½ãƒ«ãŒè‡ªå‹•çš„ã«ä¸Šä¸‹ã€ä¸‹ä¸Šã€å·¦å³ã€å³å·¦ã«å‹•ä½œã—ã¾ã™ã€ã©ã‚Œã‹ã‚­ãƒ¼ã‚’æŠ¼ã—ç¶šã‘ã¦ã„ã‚Œã°æ­¢ã¾ã‚Šã¾ã™ã€‚
