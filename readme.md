@@ -31,10 +31,10 @@ row1  |      |      |       |
 
 ## ファームウエア
 
-公式のドキュメント[https://wiki.seeedstudio.com/jp/Seeeduino-XIAO-CircuitPython/](https://wiki.seeedstudio.com/jp/Seeeduino-XIAO-CircuitPython/)を参考に
-CircuitPythonのブートローダーをXIAOにインストールしてください。
+[公式のドキュメント](https://wiki.seeedstudio.com/jp/Seeeduino-XIAO-CircuitPython/)を参考に
+CircuitPythonの[ブートローダー](https://circuitpython.org/board/seeeduino_xiao/)をXIAOにインストールしてください。
 
-HIDデバイスとして使用するためにライブラリーをCircuitPythonのサイト[https://circuitpython.org/libraries](https://circuitpython.org/libraries)からダウンロードして,
+HIDデバイスとして使用するためにライブラリーをCircuitPythonの[サイト](https://circuitpython.org/libraries)からダウンロードして,
 adafruit_hidフォルダごとXIAOのlibフォルダへコピーしてください。
 
 このリポジトリのmain.pyをXIAOにコピーしてください。
